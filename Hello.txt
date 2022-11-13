@@ -2,4 +2,53 @@ public class Hello {
     public static void main(String[] args) {
  System.out.println("Hello, World!"); 
     }
-}
+}public interface A { public void DisplayA ( ) ; 
+} 
+public interface B { 
+
+} 
+public class ClassA impliments A { public void first ( ) { 
+System.out.println ( " classA 1st " ) ; 
+
+} 
+} 
+} 
+public void DisplayA ( ) { System.out.println ( " EEE " ) ; 
+} 
+public void DisplayB ( ) ; 
+
+} 
+public void second ( ) ) { System.out.println ( " classA 2nd " ) ; 
+
+public class ClassB extends ClassA implements A , B { public void first ( int my ) { 
+System.out.println ( " classB 1st " + my ) ; 
+
+} 
+} 
+public void second ( ) { 
+System.out.println ( " classB 2nd " ) ; 
+} 
+public void DisplayB ( ) { System.out.println ( " CSE " ) ; 
+
+public class ClassC extends ClassA { public void first ( ) { 
+
+System.out.println ( " classC 1st " ) ; 
+
+} 
+} 
+For each of the following situation , indicate what output is produced executed . If some sort of error occurs instead , give a brief explanation of the Case 1 : 
+
+ClassA objA = new ClassB ( ) ; 
+
+i . 
+
+ii . 
+
+Case 2 : 
+
+i . 
+
+ii . 
+
+iii . 
+obj.first ( ) ; objA.DisplayA (
